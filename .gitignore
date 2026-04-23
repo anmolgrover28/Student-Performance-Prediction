@@ -1,0 +1,31 @@
+# --- Environment & secrets (do not commit real .env) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Dependencies ---
+backend/node_modules/
+frontend/node_modules/
+
+# --- Python (ML service) ---
+ml-service/.venv/
+ml-service/venv/
+ml-service/__pycache__/
+ml-service/**/*.py[cod]
+ml-service/.pytest_cache/
+
+# --- Builds & caches ---
+frontend/dist/
+frontend/.vite/
+*.log
+npm-debug.log*
+.npm/
+
+# --- OS & editors ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
