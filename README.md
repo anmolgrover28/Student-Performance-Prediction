@@ -206,14 +206,4 @@ Student Performance Prediction/
 
 ---
 
-## Academic use
-
-This repository is structured so you can present a clear **data flow**, **security** (JWT, password hashing), **ML serving** (separate Python service), and **visualization** (dashboard) in reports or vivas.
-
-If you extend the work, consider documenting dataset sources, evaluation metrics from `train_model.py`, and any deployment steps (e.g., environment variables in production).
-
----
-
-## License
-
-Use and modify for educational purposes as required by your institution.
+==
